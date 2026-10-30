@@ -1,0 +1,14 @@
+{
+  "visual_interval_frames": [
+    542,
+    554
+  ],
+  "fps": 25.0,
+  "visual_action": "trash-action",
+  "nearest_audio_onset_candidate": {
+    "time": 22.000907,
+    "strength": 0.3512
+  },
+  "semantic_sound_review": "not_performed",
+  "note": "Visual action interval only; center is not certified completion/velocity peak"
+}

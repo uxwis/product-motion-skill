@@ -1,0 +1,14 @@
+{
+  "visual_interval_frames": [
+    306,
+    318
+  ],
+  "fps": 60.0,
+  "visual_action": "circle-expansion",
+  "nearest_audio_onset_candidate": {
+    "time": 5.13161,
+    "strength": 1.0001
+  },
+  "semantic_sound_review": "not_performed",
+  "note": "Visual action interval only; center is not certified completion/velocity peak"
+}

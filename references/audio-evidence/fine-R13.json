@@ -1,0 +1,14 @@
+{
+  "visual_interval_frames": [
+    1114,
+    1126
+  ],
+  "fps": 25.0,
+  "visual_action": "port-contact",
+  "nearest_audio_onset_candidate": {
+    "time": 44.768073,
+    "strength": 0.5725
+  },
+  "semantic_sound_review": "not_performed",
+  "note": "Visual action interval only; center is not certified completion/velocity peak"
+}

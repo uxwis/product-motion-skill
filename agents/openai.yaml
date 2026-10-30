@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品动效 · 音画联合制作"
+  short_description: "参考驱动的镜头与声音设计，共享真实动作时间表，制作有快慢对比的产品宣传片与可编辑工程"
+  default_prompt: "使用 $product-motion-rhythm，先分析产品叙事与参考声音，选曲后联合编排镜头、动作和分层音效，为我的产品制作动效宣传片并验证最终音画同步。"

@@ -1,0 +1,486 @@
+{
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "total_frames": 1800,
+  "scenes": [
+    {
+      "id": 0,
+      "mode": "code",
+      "start_frame": 0,
+      "end_frame": 28,
+      "duration_frames": 28,
+      "copy": "Code.",
+      "reference": "05 f0–31",
+      "action": "center word replaces on rhythmic cut",
+      "readable_range_frames": [
+        10,
+        23
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 0,
+      "reference_out_frame": 31,
+      "reference_fps": 30.0,
+      "object_id": "code"
+    },
+    {
+      "id": 1,
+      "mode": "out",
+      "start_frame": 28,
+      "end_frame": 56,
+      "duration_frames": 28,
+      "copy": "Out.",
+      "reference": "05 f32–48",
+      "action": "same anchor; colour and scale step",
+      "readable_range_frames": [
+        38,
+        51
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 32,
+      "reference_out_frame": 48,
+      "reference_fps": 30.0,
+      "object_id": "out"
+    },
+    {
+      "id": 2,
+      "mode": "device",
+      "start_frame": 56,
+      "end_frame": 112,
+      "duration_frames": 56,
+      "copy": "上真机。",
+      "reference": "05 f49–80",
+      "action": "small phrase scales; outgoing type gives room to depth",
+      "readable_range_frames": [
+        66,
+        107
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 49,
+      "reference_out_frame": 84,
+      "reference_fps": 30.0,
+      "object_id": "device"
+    },
+    {
+      "id": 3,
+      "mode": "coins",
+      "start_frame": 112,
+      "end_frame": 225,
+      "duration_frames": 113,
+      "copy": "",
+      "reference": "02 6–9s /05 1.7–3.7s",
+      "action": "3D logo depth train; hero moves through camera",
+      "readable_range_frames": [
+        122,
+        220
+      ],
+      "persistent_overlays": [],
+      "reference_file": "8G7uScjVZA22O0tf.mp4",
+      "reference_in_frame": 180,
+      "reference_out_frame": 255,
+      "reference_fps": 30.0,
+      "object_id": "coins"
+    },
+    {
+      "id": 4,
+      "mode": "command",
+      "start_frame": 225,
+      "end_frame": 338,
+      "duration_frames": 113,
+      "copy": "Deploy with Coot.",
+      "reference": "08 f120–187",
+      "action": "full-width command, cursor and word flow; contracts into pill",
+      "readable_range_frames": [
+        235,
+        333
+      ],
+      "persistent_overlays": [],
+      "reference_file": "PRD-3184380-XRxHRvunbU6rUeJT-original_720p_1738542401.mp4",
+      "reference_in_frame": 120,
+      "reference_out_frame": 187,
+      "reference_fps": 30.0,
+      "object_id": "deploy_phrase",
+      "motion_tracks": [
+        {
+          "target": "deploy_phrase",
+          "property": "scale",
+          "keyframes": [
+            [
+              225,
+              1.28
+            ],
+            [
+              261,
+              1.0
+            ],
+            [
+              337,
+              0.67
+            ]
+          ],
+          "curve": "quintic smoothstep; shown in compose.py"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "mode": "pill",
+      "start_frame": 338,
+      "end_frame": 450,
+      "duration_frames": 112,
+      "copy": "Deploy with Coot.",
+      "reference": "08 f188–245",
+      "action": "use measured pill width/height/centre curve; chrome echoes; accelerating exit",
+      "readable_range_frames": [
+        348,
+        445
+      ],
+      "persistent_overlays": [],
+      "reference_file": "PRD-3184380-XRxHRvunbU6rUeJT-original_720p_1738542401.mp4",
+      "reference_in_frame": 188,
+      "reference_out_frame": 246,
+      "reference_fps": 30.0,
+      "object_id": "deploy_phrase",
+      "motion_tracks": [
+        {
+          "target": "deploy_phrase",
+          "property": "bbox_norm",
+          "samples_file": "assets/measured-tracks.json#pill",
+          "reference_frames": [
+            188,
+            246
+          ],
+          "reference_fps": 30,
+          "output_frames": [
+            338,
+            450
+          ],
+          "continuation": "after raster clipping, continue camera zoom beyond full image, not a clipped bbox"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "mode": "terminal",
+      "start_frame": 450,
+      "end_frame": 562,
+      "duration_frames": 112,
+      "copy": "",
+      "reference": "07 f126–318",
+      "action": "macro UI; focus on command and completed states; small dot -> full frame",
+      "readable_range_frames": [
+        460,
+        557
+      ],
+      "persistent_overlays": [],
+      "reference_file": "H1CV9hY9Z1Yl7ueb.mp4",
+      "reference_in_frame": 126,
+      "reference_out_frame": 319,
+      "reference_fps": 60.0,
+      "object_id": "build_dot",
+      "motion_tracks": [
+        {
+          "target": "build_dot",
+          "property": "bbox_norm",
+          "samples_file": "assets/measured-tracks.json#disc",
+          "reference_frames": [
+            300,
+            319
+          ],
+          "reference_fps": 60,
+          "output_seconds": [
+            8.975,
+            9.375
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "mode": "upload",
+      "start_frame": 562,
+      "end_frame": 675,
+      "duration_frames": 113,
+      "copy": "Build → Upload",
+      "reference": "07 6–8s /05 6.3–7.2s",
+      "action": "disc contracts into UI slider; build status line grows from end node",
+      "readable_range_frames": [
+        572,
+        670
+      ],
+      "persistent_overlays": [],
+      "reference_file": "H1CV9hY9Z1Yl7ueb.mp4",
+      "reference_in_frame": 360,
+      "reference_out_frame": 447,
+      "reference_fps": 60.0,
+      "object_id": "build_dot"
+    },
+    {
+      "id": 8,
+      "mode": "phone",
+      "start_frame": 675,
+      "end_frame": 788,
+      "duration_frames": 113,
+      "copy": "",
+      "reference": "05 2.8–4.9s",
+      "action": "phone rises from bottom with true 3D parallax; foreground fills frame",
+      "readable_range_frames": [
+        685,
+        783
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 85,
+      "reference_out_frame": 117,
+      "reference_fps": 30.0,
+      "object_id": "iphone_install",
+      "motion_tracks": [
+        {
+          "target": "iphone_install",
+          "property": "location/rotation/scale",
+          "source": "phone.blend",
+          "frames": [
+            1,
+            113
+          ],
+          "output_frames": [
+            675,
+            787
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "mode": "macro",
+      "start_frame": 788,
+      "end_frame": 900,
+      "duration_frames": 112,
+      "copy": "Install on iOS",
+      "reference": "05 4.9–5.5s",
+      "action": "continuous camera push into existing phone install control; control is next shot",
+      "readable_range_frames": [
+        798,
+        895
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 118,
+      "reference_out_frame": 157,
+      "reference_fps": 30.0,
+      "object_id": "iphone_install",
+      "motion_tracks": [
+        {
+          "target": "iphone_install",
+          "property": "camera_scale",
+          "keyframes": [
+            [
+              788,
+              1
+            ],
+            [
+              900,
+              2.81
+            ]
+          ],
+          "anchor_source_px": [
+            981,
+            725
+          ],
+          "anchor_output_px": [
+            960,
+            540
+          ],
+          "counter_rotation_degrees": -5,
+          "easing": "smootherstep"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "mode": "install",
+      "start_frame": 900,
+      "end_frame": 1012,
+      "duration_frames": 112,
+      "copy": "Install",
+      "reference": "05 5.3–6.5s /12.5–13.8s",
+      "action": "isolated control expands, click, collapse to node/check; hold once readable",
+      "readable_range_frames": [
+        910,
+        1007
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 157,
+      "reference_out_frame": 210,
+      "reference_fps": 30.0,
+      "object_id": "install_control",
+      "motion_tracks": [
+        {
+          "target": "install_control",
+          "property": "source_pixels",
+          "source": "install_control() extracts actual phone plate f113 projected control; no text re-draw at handoff"
+        },
+        {
+          "target": "install_control",
+          "property": "width",
+          "keyframes": [
+            [
+              900,
+              1070
+            ],
+            [
+              959,
+              1070
+            ],
+            [
+              984,
+              220
+            ]
+          ],
+          "easing": "smootherstep"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "mode": "resolve",
+      "start_frame": 1012,
+      "end_frame": 1125,
+      "duration_frames": 113,
+      "copy": "On your iPhone.",
+      "reference": "05 14.0–16.0s",
+      "action": "notification starts local then fills frame black; central phrase appears",
+      "readable_range_frames": [
+        1022,
+        1120
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 418,
+      "reference_out_frame": 495,
+      "reference_fps": 30.0,
+      "object_id": "install_control"
+    },
+    {
+      "id": 12,
+      "mode": "stack",
+      "start_frame": 1125,
+      "end_frame": 1294,
+      "duration_frames": 169,
+      "copy": "",
+      "reference": "04 2.9–5.6s",
+      "action": "PBR device layers move in depth, merge into single phone with large cropped background type",
+      "readable_range_frames": [
+        1135,
+        1289
+      ],
+      "persistent_overlays": [],
+      "reference_file": "DYegE15wD1taFkNgY05UBxFcQ.mp4",
+      "reference_in_frame": 87,
+      "reference_out_frame": 171,
+      "reference_fps": 30.0,
+      "object_id": "stack",
+      "motion_tracks": [
+        {
+          "target": "iphone_layers",
+          "property": "location/rotation/scale",
+          "source": "stack.blend",
+          "source_frames": [
+            1,
+            168
+          ],
+          "output_frames": [
+            1125,
+            1293
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "mode": "proof",
+      "start_frame": 1294,
+      "end_frame": 1406,
+      "duration_frames": 112,
+      "copy": "",
+      "reference": "03 13–16s /11 17s",
+      "action": "two short actual product proof shots: confirm install, open app; no labels",
+      "readable_range_frames": [
+        1304,
+        1401
+      ],
+      "persistent_overlays": [],
+      "reference_file": "deXGURbHIz90R_JR.mp4",
+      "reference_in_frame": 819,
+      "reference_out_frame": 960,
+      "reference_fps": 60.0,
+      "object_id": "proof"
+    },
+    {
+      "id": 14,
+      "mode": "verbs",
+      "start_frame": 1406,
+      "end_frame": 1519,
+      "duration_frames": 113,
+      "copy": "Build. Upload. Install.",
+      "reference": "05 16–18.8s",
+      "action": "three centred full-bleed type beats, size and colour contrast",
+      "readable_range_frames": [
+        1416,
+        1514
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 475,
+      "reference_out_frame": 567,
+      "reference_fps": 30.0,
+      "object_id": "verbs"
+    },
+    {
+      "id": 15,
+      "mode": "payoff",
+      "start_frame": 1519,
+      "end_frame": 1631,
+      "duration_frames": 112,
+      "copy": "从 AI 代码，到你的 iPhone。",
+      "reference": "08 19–20.7s",
+      "action": "semantic short phrases; text moves as a single spatial object",
+      "readable_range_frames": [
+        1529,
+        1626
+      ],
+      "persistent_overlays": [],
+      "reference_file": "PRD-3184380-XRxHRvunbU6rUeJT-original_720p_1738542401.mp4",
+      "reference_in_frame": 570,
+      "reference_out_frame": 624,
+      "reference_fps": 30.0,
+      "object_id": "payoff"
+    },
+    {
+      "id": 16,
+      "mode": "end",
+      "start_frame": 1631,
+      "end_frame": 1800,
+      "duration_frames": 169,
+      "copy": "COOT / coot.dev",
+      "reference": "02 31–33.3s /05 19–21s",
+      "action": "single brand lock-up at centre, settle and remain readable",
+      "readable_range_frames": [
+        1641,
+        1795
+      ],
+      "persistent_overlays": [],
+      "reference_file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+      "reference_in_frame": 567,
+      "reference_out_frame": 630,
+      "reference_fps": 30.0,
+      "object_id": "end"
+    }
+  ],
+  "diagnostic_audio_bpm": 128,
+  "audio_policy": "Historical visual example only. Bind actual motion-events and independently selected production music."
+}

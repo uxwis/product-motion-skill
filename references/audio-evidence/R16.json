@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "path": "reference-media/新增/无音频.mp4",
+  "sha256": "4dcad9fd4225d4290272bf20c665feb31176c48c9988507178d595342164c6ce",
+  "role": "reference_only",
+  "duration": 59.933333,
+  "audio_stream_present": false,
+  "effective_audio": false,
+  "listening_review": "not_performed",
+  "semantics": {
+    "music": "unreviewed",
+    "sfx": "unreviewed",
+    "voice": "unreviewed"
+  },
+  "method": "SciPy STFT; positive log-spectral flux; onset-autocorrelation candidates; no automatic stem separation",
+  "video": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "time_base": "1/15360",
+    "start_time": "0.000000"
+  },
+  "status": "visual_only",
+  "id": "R16"
+}

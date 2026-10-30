@@ -1,0 +1,14 @@
+{
+  "visual_interval_frames": [
+    234,
+    246
+  ],
+  "fps": 30.0,
+  "visual_action": "capsule-pass",
+  "nearest_audio_onset_candidate": {
+    "time": 7.941224,
+    "strength": 1.2196
+  },
+  "semantic_sound_review": "not_performed",
+  "note": "Visual action interval only; center is not certified completion/velocity peak"
+}

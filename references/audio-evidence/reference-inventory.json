@@ -1,0 +1,221 @@
+[
+  {
+    "id": "R01",
+    "file": "6hKL1cKxlo6klBsqrx8f4KZTiI.mp4",
+    "path": "reference-media/6hKL1cKxlo6klBsqrx8f4KZTiI.mp4",
+    "status": "silent_track",
+    "duration": 5.3,
+    "rms_dBFS": -240.0,
+    "tempo_candidates": [],
+    "role": "reference_only"
+  },
+  {
+    "id": "R02",
+    "file": "8G7uScjVZA22O0tf.mp4",
+    "path": "reference-media/8G7uScjVZA22O0tf.mp4",
+    "status": "signal_analyzed",
+    "duration": 33.322667,
+    "rms_dBFS": -19.590457572356158,
+    "tempo_candidates": [
+      79.507,
+      120.185,
+      95.703,
+      161.499
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R03",
+    "file": "deXGURbHIz90R_JR.mp4",
+    "path": "reference-media/deXGURbHIz90R_JR.mp4",
+    "status": "signal_analyzed",
+    "duration": 34.837333,
+    "rms_dBFS": -17.919016475507487,
+    "tempo_candidates": [
+      161.499,
+      79.507,
+      105.469,
+      70.794
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R04",
+    "file": "DYegE15wD1taFkNgY05UBxFcQ.mp4",
+    "path": "reference-media/DYegE15wD1taFkNgY05UBxFcQ.mp4",
+    "status": "silent_track",
+    "duration": 7.5,
+    "rms_dBFS": -240.0,
+    "tempo_candidates": [],
+    "role": "reference_only"
+  },
+  {
+    "id": "R05",
+    "file": "eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+    "path": "reference-media/eJUKwIx8X48LLjVZRh7kBAsFjM.webm",
+    "status": "silent_track",
+    "duration": 21.044,
+    "rms_dBFS": -240.0,
+    "tempo_candidates": [],
+    "role": "reference_only"
+  },
+  {
+    "id": "R06",
+    "file": "gvXcMKOfTaaDrTjM.mp4",
+    "path": "reference-media/gvXcMKOfTaaDrTjM.mp4",
+    "status": "signal_analyzed",
+    "duration": 38.421333,
+    "rms_dBFS": -20.198425972512915,
+    "tempo_candidates": [
+      114.844,
+      77.134,
+      151.999,
+      66.256
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R07",
+    "file": "H1CV9hY9Z1Yl7ueb.mp4",
+    "path": "reference-media/H1CV9hY9Z1Yl7ueb.mp4",
+    "status": "signal_analyzed",
+    "duration": 16.486168,
+    "rms_dBFS": -16.05674299804369,
+    "tempo_candidates": [
+      95.703,
+      77.134,
+      129.199
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R08",
+    "file": "PRD-3184380-XRxHRvunbU6rUeJT-original_720p_1738542401.mp4",
+    "path": "reference-media/PRD-3184380-XRxHRvunbU6rUeJT-original_720p_1738542401.mp4",
+    "status": "signal_analyzed",
+    "duration": 25.112,
+    "rms_dBFS": -10.784880981332744,
+    "tempo_candidates": [
+      99.384,
+      66.256,
+      132.512,
+      79.507
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R09",
+    "file": "PRD-3638028-4QAWP8yWco7yzXV9-original_1080p_1750847086.mp4",
+    "path": "reference-media/PRD-3638028-4QAWP8yWco7yzXV9-original_1080p_1750847086.mp4",
+    "status": "signal_analyzed",
+    "duration": 29.162667,
+    "rms_dBFS": -12.274902028767434,
+    "tempo_candidates": [
+      90.666,
+      178.206,
+      123.047,
+      70.794
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R10",
+    "file": "PRD-4443684-vUAucTexnnKhlTIn-original_1080p_1790919539.mp4",
+    "path": "reference-media/PRD-4443684-vUAucTexnnKhlTIn-original_1080p_1790919539.mp4",
+    "status": "signal_analyzed",
+    "duration": 22.464,
+    "rms_dBFS": -11.505592810038523,
+    "tempo_candidates": [
+      70.794,
+      105.469,
+      143.555,
+      84.721
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R11",
+    "file": "rCXF_F-C6kbMokIC.mp4",
+    "path": "reference-media/rCXF_F-C6kbMokIC.mp4",
+    "status": "signal_analyzed",
+    "duration": 36.501769,
+    "rms_dBFS": -14.377062520591316,
+    "tempo_candidates": [
+      109.957,
+      147.656,
+      87.593,
+      73.828
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R12",
+    "file": "10月29日(1).mp4",
+    "path": "reference-media/新增/10月29日(1).mp4",
+    "status": "signal_analyzed",
+    "duration": 40.100998,
+    "rms_dBFS": -15.709471424993636,
+    "tempo_candidates": [
+      151.999,
+      101.333,
+      76.0,
+      123.047
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R13",
+    "file": "10月29日(2).mp4",
+    "path": "reference-media/新增/10月29日(2).mp4",
+    "status": "signal_analyzed",
+    "duration": 52.965011,
+    "rms_dBFS": -15.54742732147237,
+    "tempo_candidates": [
+      151.999,
+      74.898,
+      99.384,
+      120.185
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R14",
+    "file": "10月29日(3).mp4",
+    "path": "reference-media/新增/10月29日(3).mp4",
+    "status": "signal_analyzed",
+    "duration": 58.7,
+    "rms_dBFS": -15.628926544512238,
+    "tempo_candidates": [
+      84.721,
+      172.266,
+      112.347,
+      68.0
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R15",
+    "file": "10月29日.mp4",
+    "path": "reference-media/新增/10月29日.mp4",
+    "status": "signal_analyzed",
+    "duration": 29.860998,
+    "rms_dBFS": -16.14795934740331,
+    "tempo_candidates": [
+      120.185,
+      79.507,
+      161.499,
+      95.703
+    ],
+    "role": "reference_only"
+  },
+  {
+    "id": "R16",
+    "file": "无音频.mp4",
+    "path": "reference-media/新增/无音频.mp4",
+    "status": "visual_only",
+    "duration": 59.933333,
+    "rms_dBFS": null,
+    "tempo_candidates": [],
+    "role": "reference_only"
+  }
+]

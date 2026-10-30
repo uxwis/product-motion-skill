@@ -1,0 +1,14 @@
+{
+  "visual_interval_frames": [
+    569,
+    581
+  ],
+  "fps": 25.0,
+  "visual_action": "object-queue",
+  "nearest_audio_onset_candidate": {
+    "time": 23.069025,
+    "strength": 0.2812
+  },
+  "semantic_sound_review": "not_performed",
+  "note": "Visual action interval only; center is not certified completion/velocity peak"
+}

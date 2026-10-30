@@ -1,0 +1,38 @@
+[
+  {
+    "visual_time": 0.1,
+    "mean_luma_change": 11.554583333333333,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 0.9,
+    "mean_luma_change": 6.003888888888889,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 1.7,
+    "mean_luma_change": 11.163055555555555,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 3.2,
+    "mean_luma_change": 20.817916666666665,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 4.3,
+    "mean_luma_change": 33.92743055555555,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 5.2,
+    "mean_luma_change": 3.0345833333333334,
+    "nearest_audio_onset": null,
+    "status": "measured_candidate_requires_semantic_review"
+  }
+]

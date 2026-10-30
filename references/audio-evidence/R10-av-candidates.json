@@ -1,0 +1,74 @@
+[
+  {
+    "visual_time": 3.3,
+    "mean_luma_change": 63.2675,
+    "nearest_audio_onset": {
+      "time": 3.285624,
+      "strength": 2.0401
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 5.7,
+    "mean_luma_change": 108.60465277777777,
+    "nearest_audio_onset": {
+      "time": 5.723719,
+      "strength": 0.6437
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 6.7,
+    "mean_luma_change": 67.10743055555555,
+    "nearest_audio_onset": {
+      "time": 6.733787,
+      "strength": 0.8215
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 8.4,
+    "mean_luma_change": 68.11902777777777,
+    "nearest_audio_onset": {
+      "time": 8.382404,
+      "strength": 1.0293
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 10.3,
+    "mean_luma_change": 202.37541666666667,
+    "nearest_audio_onset": {
+      "time": 10.33288,
+      "strength": 1.4232
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 11.3,
+    "mean_luma_change": 127.55916666666667,
+    "nearest_audio_onset": {
+      "time": 11.319728,
+      "strength": 0.7893
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 13.1,
+    "mean_luma_change": 61.08326388888889,
+    "nearest_audio_onset": {
+      "time": 13.154104,
+      "strength": 1.6898
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 18.0,
+    "mean_luma_change": 158.0545138888889,
+    "nearest_audio_onset": {
+      "time": 17.983855,
+      "strength": 0.6991
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  }
+]

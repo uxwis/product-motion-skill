@@ -1,0 +1,58 @@
+[
+  {
+    "property": "x",
+    "held_out_frames": [
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313
+    ],
+    "mean_abs_pixels": 1.1696428571428694,
+    "max_abs_pixels": 4.777777777777885
+  },
+  {
+    "property": "y",
+    "held_out_frames": [
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313
+    ],
+    "mean_abs_pixels": 1.5030253837071963,
+    "max_abs_pixels": 4.464413469840873
+  },
+  {
+    "property": "w",
+    "held_out_frames": [
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313
+    ],
+    "mean_abs_pixels": 10.928571428571416,
+    "max_abs_pixels": 39.594951974846
+  },
+  {
+    "property": "h",
+    "held_out_frames": [
+      301,
+      303,
+      305,
+      307,
+      309,
+      311,
+      313
+    ],
+    "mean_abs_pixels": 11.562747698311076,
+    "max_abs_pixels": 72.85037907065482
+  }
+]

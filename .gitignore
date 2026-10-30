@@ -1,0 +1,23 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+# Downloaded sources and generated output
+.cache/
+audio-library/
+reference-media/
+outputs/
+renders/
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.zip
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,238 @@
+{
+  "checked_at": "2026-10-29",
+  "status": "source index; verify current terms before new retrieval, not a bundled audio library",
+  "local_cache": "audio-library/registry.json",
+  "music_license": "https://mixkit.co/license/modal/musicFree/",
+  "sfx_license": "https://mixkit.co/license/modal/sfxFree/",
+  "notes": [
+    "Music: online video/social/online ads verified; not games/TV/radio/DVD/CD under this music license.",
+    "SFX: synchronized end products allowed; no raw redistribution in source/tool/template.",
+    "Internal stems/source audio are omitted from transferable skill and validation ZIPs."
+  ],
+  "assets": [
+    {
+      "id": "bgm_clean",
+      "kind": "music",
+      "role": "candidate",
+      "title": "Close Up",
+      "tags": [
+        "clean-ui",
+        "rhythmic-underscore",
+        "technology"
+      ],
+      "sha256": "a7f05a29d07a84d38072ccd2b35204bca812db86e75b2a837e71cc144d3e739b",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-stock-music/download/1167/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#musicFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "c15a0868aafd055c7628b6e0ecbad02fcb96e05bc407bd1c35ba76bf7da03f73",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "bgm_type",
+      "kind": "music",
+      "role": "candidate",
+      "title": "Cat Walk",
+      "tags": [
+        "kinetic-type",
+        "house",
+        "energetic"
+      ],
+      "sha256": "e241cba000ce12e52cadd4c9956274e391ef1f66d1e48a5dd40bfc21645aa489",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-stock-music/download/371/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#musicFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "c15a0868aafd055c7628b6e0ecbad02fcb96e05bc407bd1c35ba76bf7da03f73",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "bgm_3d",
+      "kind": "music",
+      "role": "candidate",
+      "title": "Deep Techno Ambience",
+      "tags": [
+        "sculpture",
+        "techno",
+        "atmospheric"
+      ],
+      "sha256": "b873f8373c4d1cf134f358105ff5914e601d60dd518a7a5c0ad04398f47c0fad",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-stock-music/download/134/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#musicFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "c15a0868aafd055c7628b6e0ecbad02fcb96e05bc407bd1c35ba76bf7da03f73",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "click",
+      "kind": "sfx",
+      "role": "candidate",
+      "title": "Select click",
+      "tags": [
+        "click",
+        "ui",
+        "contact"
+      ],
+      "sha256": "9136caeb750756176bd696d639ec74261523fa1f9d8312be6ccd673a506e0a2b",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-sound-effects/download/1109/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#sfxFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "5584c294080a362ae460c6e9dce3a475f95522c0f927337f7e56e29bdfb2562c",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "tone",
+      "kind": "sfx",
+      "role": "candidate",
+      "title": "Cool interface click tone",
+      "tags": [
+        "confirm",
+        "tone",
+        "settle"
+      ],
+      "sha256": "248312c2ef619427ef7024126a846e4210fe37e39038cfd32c73b1fb854a8086",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-sound-effects/download/2568/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#sfxFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "5584c294080a362ae460c6e9dce3a475f95522c0f927337f7e56e29bdfb2562c",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "whoosh",
+      "kind": "sfx",
+      "role": "candidate",
+      "title": "Cinematic whoosh fast transition",
+      "tags": [
+        "whoosh",
+        "motion_peak",
+        "short"
+      ],
+      "sha256": "02b8cd40b3761288d54f4d6706983a2f8c110182b669ae2cdf9aab02935a4e7a",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-sound-effects/download/1492/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#sfxFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "5584c294080a362ae460c6e9dce3a475f95522c0f927337f7e56e29bdfb2562c",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "air",
+      "kind": "sfx",
+      "role": "candidate",
+      "title": "Air woosh",
+      "tags": [
+        "air",
+        "pass",
+        "texture"
+      ],
+      "sha256": "fdc4f87eb2c6d29ec3567b299fdc3b2aeea2432afe27801db80c496bda084499",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-sound-effects/download/1489/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#sfxFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "5584c294080a362ae460c6e9dce3a475f95522c0f927337f7e56e29bdfb2562c",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    },
+    {
+      "id": "impact",
+      "kind": "sfx",
+      "role": "candidate",
+      "title": "Movie logo intro impact",
+      "tags": [
+        "impact",
+        "reveal",
+        "brand"
+      ],
+      "sha256": "97ccd5a712c1390caa2ba121ca449a10c21bcbc78f0c4ba0dcacdbfab1e9628e",
+      "license": {
+        "verified": true,
+        "sync_allowed": true,
+        "edit_allowed": true,
+        "allowed_contexts": [
+          "online_video",
+          "social_video",
+          "online_ads"
+        ],
+        "raw_redistribution_allowed": false,
+        "source_url": "https://mixkit.co/free-sound-effects/download/2900/?context=item+grid",
+        "license_url": "https://mixkit.co/license/#sfxFree",
+        "checked_at": "2026-10-29",
+        "evidence_sha256": "5584c294080a362ae460c6e9dce3a475f95522c0f927337f7e56e29bdfb2562c",
+        "note": "Verified public license modal; only online-video validation end products. Raw media/stems not bundled with reusable skill or source delivery."
+      }
+    }
+  ]
+}

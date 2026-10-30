@@ -1,0 +1,47 @@
+{
+  "purpose": "Reference-driven Coot remake as an executable technical example, not a fixed template for every product",
+  "dependencies": {
+    "python": [
+      "Pillow",
+      "numpy",
+      "scipy"
+    ],
+    "external": [
+      "FFmpeg/FFprobe",
+      "Blender 5.2 for PBR plates"
+    ]
+  },
+  "required_assets": [
+    "assets/logo-dark.png (light mark)",
+    "assets/logo-light.png (dark mark)",
+    "assets/coin-front.png (1024px branded circular texture)",
+    "assets/screen-install.png (900x1950 portrait interface)",
+    "assets/screen-app.png (optional product result)",
+    "assets/measured-tracks.json",
+    "assets/Inter-Regular-9.otf",
+    "assets/Inter-Medium-8.otf",
+    "assets/Inter-SemiBold-10.otf",
+    "assets/Inter-Bold-4.otf",
+    "assets/NotoSansSC-VF.ttf",
+    "assets/consola.ttf or a licensed equivalent",
+    "assets/proof/0001.jpg..0112.jpg (if the proof scene is retained)"
+  ],
+  "files": {
+    "compose.py": "Frame-addressable 2D+PBR plate compositor. Reads storyboard.json for actual boundaries. Adapt copy, shot graph and motion to new product.",
+    "render_3d.py": "Phone/brand-disc/stack geometry, PBR and true per-frame transform animation; accepts phone|coin|stack --eevee or --cycles.",
+    "score.py": "Legacy 128BPM diagnostic only: explicit --diagnostic required. Never default production music.",
+    "example-shot-map.json": "Copy to storyboard.json next to scripts after adaptation."
+  },
+  "execution": [
+    "Prepare product textures/logo/font files; bind paths and actual copy.",
+    "Render required 3D plates: blender -b --python render_3d.py -- phone --eevee (also coin/stack if used).",
+    "python compose.py --preview; inspect full composition and continuous seams.",
+    "python compose.py --render --silent-preview for visual work, or --audio <reviewed mix.wav>; follow audio-contract.md for shared real events and final QA"
+  ],
+  "limits": [
+    "Not an automatic perfect replica of every reference. 3D geometry, original assets, material/light matching and sound need per-project work.",
+    "Rendered 3D plates, commercial source videos and product logos are not bundled in the reusable skill.",
+    "Never silently use the Coot sample copy or branding for a different product.",
+    "This historical compositor has fixed visual content. Adapt its actual renderer to consume project motion-events.json before production sound synchronization."
+  ]
+}

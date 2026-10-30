@@ -1,0 +1,74 @@
+[
+  {
+    "visual_time": 1.6,
+    "mean_luma_change": 199.98958333333334,
+    "nearest_audio_onset": {
+      "time": 1.567347,
+      "strength": 0.6306
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 2.7,
+    "mean_luma_change": 163.0365277777778,
+    "nearest_audio_onset": {
+      "time": 2.658685,
+      "strength": 0.8905
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 12.9,
+    "mean_luma_change": 194.2277777777778,
+    "nearest_audio_onset": {
+      "time": 12.887075,
+      "strength": 1.1446
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 18.0,
+    "mean_luma_change": 188.82,
+    "nearest_audio_onset": {
+      "time": 18.065125,
+      "strength": 1.2112
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 23.4,
+    "mean_luma_change": 206.17923611111112,
+    "nearest_audio_onset": {
+      "time": 23.382494,
+      "strength": 0.5945
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 26.1,
+    "mean_luma_change": 218.44222222222223,
+    "nearest_audio_onset": {
+      "time": 26.110839,
+      "strength": 0.7431
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 30.6,
+    "mean_luma_change": 182.95222222222222,
+    "nearest_audio_onset": {
+      "time": 30.6039,
+      "strength": 0.9213
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  },
+  {
+    "visual_time": 32.9,
+    "mean_luma_change": 176.19006944444445,
+    "nearest_audio_onset": {
+      "time": 32.949116,
+      "strength": 0.5522
+    },
+    "status": "measured_candidate_requires_semantic_review"
+  }
+]

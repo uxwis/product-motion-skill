@@ -1,0 +1,58 @@
+{
+  "tests": [
+    {
+      "name": "reference-only rejected",
+      "pass": true
+    },
+    {
+      "name": "unverified rights rejected",
+      "pass": true
+    },
+    {
+      "name": "changed bytes rejected",
+      "pass": true
+    },
+    {
+      "name": "duplicate motion IDs rejected",
+      "pass": true
+    },
+    {
+      "name": "duplicate asset IDs rejected",
+      "pass": true
+    },
+    {
+      "name": "source overrun rejected",
+      "pass": true
+    },
+    {
+      "name": "no synthesized fallback",
+      "pass": true
+    },
+    {
+      "name": "unreviewed music splice rejected",
+      "pass": true
+    },
+    {
+      "name": "reviewed anchor retime respects locked and renderer support",
+      "pass": true
+    },
+    {
+      "name": "12 effective / 4 visual-only classification",
+      "pass": true
+    },
+    {
+      "name": "mismatched visual execution rejected",
+      "pass": true
+    },
+    {
+      "name": "encoded two-frame audio delay fails",
+      "pass": true
+    },
+    {
+      "name": "190ms preroll compensated in encoded MP4",
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "listening_review": "not_performed"
+}

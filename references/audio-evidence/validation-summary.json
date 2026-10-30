@@ -1,0 +1,123 @@
+{
+  "skill_version": 3,
+  "date": "2026-10-29",
+  "references": {
+    "total": 16,
+    "effective_audio": 12,
+    "silent_or_no_audio": 4,
+    "role": "reference_only",
+    "listening_review": "not_performed"
+  },
+  "cases": [
+    {
+      "name": "clean-ui",
+      "frames": 225,
+      "fps": "25/1",
+      "duration": 9.0,
+      "integrated_lufs": -16.05,
+      "true_peak_dbtp": -1.44,
+      "max_event_error_ms": 4.440892098500626e-13,
+      "event_count": 3,
+      "signal_pass": true,
+      "sync_pass": true,
+      "full_decode": "pass",
+      "listening_review": "not_performed",
+      "perceptual_pass": null
+    },
+    {
+      "name": "kinetic-type",
+      "frames": 720,
+      "fps": "60/1",
+      "duration": 12.0,
+      "integrated_lufs": -15.99,
+      "true_peak_dbtp": -1.24,
+      "max_event_error_ms": 8.881784197001252e-13,
+      "event_count": 4,
+      "signal_pass": true,
+      "sync_pass": true,
+      "full_decode": "pass",
+      "listening_review": "not_performed",
+      "perceptual_pass": null
+    },
+    {
+      "name": "device-3d",
+      "frames": 450,
+      "fps": "30/1",
+      "duration": 15.0,
+      "integrated_lufs": -16.02,
+      "true_peak_dbtp": -4.25,
+      "max_event_error_ms": 0.06250000000007638,
+      "event_count": 4,
+      "signal_pass": true,
+      "sync_pass": true,
+      "full_decode": "pass",
+      "listening_review": "not_performed",
+      "perceptual_pass": null
+    }
+  ],
+  "regression_tests": {
+    "tests": [
+      {
+        "name": "reference-only rejected",
+        "pass": true
+      },
+      {
+        "name": "unverified rights rejected",
+        "pass": true
+      },
+      {
+        "name": "changed bytes rejected",
+        "pass": true
+      },
+      {
+        "name": "duplicate motion IDs rejected",
+        "pass": true
+      },
+      {
+        "name": "duplicate asset IDs rejected",
+        "pass": true
+      },
+      {
+        "name": "source overrun rejected",
+        "pass": true
+      },
+      {
+        "name": "no synthesized fallback",
+        "pass": true
+      },
+      {
+        "name": "unreviewed music splice rejected",
+        "pass": true
+      },
+      {
+        "name": "reviewed anchor retime respects locked and renderer support",
+        "pass": true
+      },
+      {
+        "name": "12 effective / 4 visual-only classification",
+        "pass": true
+      },
+      {
+        "name": "mismatched visual execution rejected",
+        "pass": true
+      },
+      {
+        "name": "encoded two-frame audio delay fails",
+        "pass": true
+      },
+      {
+        "name": "190ms preroll compensated in encoded MP4",
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "listening_review": "not_performed"
+  },
+  "fetch_smoke_test": {
+    "pass": true,
+    "checks": "actual HTTPS retrieval, expected SHA256, ffprobe audio stream, registry write"
+  },
+  "coot_sha256_unchanged": true,
+  "listening_review": "not_performed",
+  "perceptual_quality": "not established by these tests"
+}

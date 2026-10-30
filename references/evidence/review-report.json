@@ -1,0 +1,27 @@
+{
+  "sources": 11,
+  "decoded_source_frames": 9454,
+  "second_pass": "all-source2fps; source04/05/07/08~8fps and targeted original-fps sequences",
+  "measured_targets": {
+    "source07": "white disc frames280–319",
+    "source08": "white pill frames188–246",
+    "source05": "Paste ink bbox frames157–186"
+  },
+  "audio_analysis": "positive log spectral flux for11 source audio tracks; candidates not beat/BPM confirmation",
+  "implementation_changes": [
+    "removed fixed corner chrome, page numbering, progress rail and grid",
+    "variable spatial framing: short type, full-frame command, macro interface, 3D device, extreme control closeup, abstract state transition, actual proof",
+    "PBR device/brand geometry with transparent 60fps sequences",
+    "actual projected control reused across camera-to-button transition",
+    "four subframe samples for fast 2D movement, clamped within edit boundaries; native 3D motion blur preserved",
+    "original128BPM score bound to edit cues"
+  ],
+  "similarity_scope": "reference-derived motion remake for another brand; no verified whole-film pixel1:1 claim",
+  "known_limits": [
+    "Only selected source objects have measured per-frame geometry. Other source sections have timing/composition analysis, not full motion capture.",
+    "3D phone/brand disc are original models, not the original references models/materials.",
+    "Original reference audio, fonts and full scene assets have not been identically recreated.",
+    "Source raster bbox clipping means invisible full-object geometry is reconstructed rather than directly measured."
+  ],
+  "status": "Historical v2 visual analysis. Audio production superseded by references/audio-workflow.md and audio-evidence/."
+}
